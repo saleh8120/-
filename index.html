@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>صفحه یادبود شهید جابر مهدوی</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1></h1>
+    </header>
+
+    <section id="profile">
+        <div id="photo">
+            <img src="IMG_20220216_120104_978.jpg" alt="عکس شهید جابر مهدوی">
+        </div>
+        <div id="name">
+            <h2 class="nastaliq"><span class="red-text">شهید</span> جابر مهدوی</h2>
+            <p>فرزند غلامرضا</p>
+        </div>
+    </section>
+
+    <section id="details">
+        <h2>مشخصات فردی</h2>
+        <ul>
+            <li><strong>تاریخ و محل تولد:</strong> ۶ بهمن ۱۳۵۰ - خانوک</li>
+            <li><strong>شغل:</strong> دانش‌آموز</li>
+            <li><strong>تاریخ و محل شهادت:</strong> ۴ خرداد ۱۳۶۷ - شلمچه</li>
+            <li><strong>سن هنگام شهادت:</strong> ۱۶ سال و ۴ ماه</li>
+        </ul>
+    </section>
+
+    <section id="biography">
+        <h2>شرح مختصری از شانزده بهار زندگی</h2>
+        <details>
+            <summary>مشاهده بیوگرافی</summary>
+            <p>جابر دومین فرزند خانواده بود که در بهمن ۱۳۵۰ برابر با عید قربان، در خانوک به دنیا آمد. وی دوران ابتدایی را در دبستان «علوی» زادگاهش پشت سر گذاشت و سپس پا به مدرسۀ راهنمایی «شهید علی اسدی» گذاشت. او در طول تعطیلات تابستان، برای تأمین مخارج تحصیلش، کار می‌کرد...</p>
+        </details>
+    </section>
+
+    <section id="gallery">
+        <h2>تصاویر</h2>
+        <details>
+            <summary>مشاهده تصاویر</summary>
+            <div class="image-container">
+                <img src="IMG_20220216_120104_978.jpg" alt="تصویر شهید جابر مهدوی">
+                <img src="عکس۱.IMG5869-جابر-مهدوی-1024x764" alt="تصویر ۱">
+                <img src="عکس۲.jpg" alt="تصویر ۲">
+                <img src="عکس۳.jpg" alt="تصویر ۳">
+                <img src="عکس۴.jpg" alt="تصویر ۴">
+            </div>
+        </details>
+    </section>
+
+    <section id="actions">
+        <h2>فاتحه و صلوات</h2>
+        <div class="action-box">
+            <button onclick="incrementCount('fatihaCount')">فاتحه</button>
+            <p>تعداد فاتحه: <span id="fatihaCount">0</span></p>
+        </div>
+        <div class="action-box">
+            <button onclick="incrementCount('salavatCount')">صلوات</button>
+            <p>تعداد صلوات: <span id="salavatCount">0</span></p>
+        </div>
+    </section>
+
+    <section id="extra">
+        <h2>بارکد و مکان</h2>
+        <div id="qr-code">
+            <img src="بارکد.IMG_444773fddedeb8a6f0f870f302b1eb14" alt="بارکد سایت شهید">
+        </div>
+        <div id="location">
+            <p>مکان مزار: گلزار شهدای شهر خانوک، استان کرمان</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>ایجاد شده توسط | ۱۴۰۴</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    direction: rtl;
+    text-align: center;
+    background-color: #000000; /* پس‌زمینه مشکی */
+    color: #ffffff; /* متن سفید */
+}
+
+header {
+    background-color: #1c1c1c;
+    color: #ffd700; /* متن طلایی */
+    padding: 20px;
+}
+
+.nastaliq {
+    font-family: 'IranNastaliq', serif; /* فونت نستعلیق */
+    font-size: 24px;
+    color: #ffd700; /* متن طلایی */
+}
+
+.red-text {
+    color: #ff0000; /* رنگ قرمز برای متن "شهید" */
+}
+
+#photo img {
+    max-width: 200px;
+    border-radius: 50%;
+    border: 3px solid #ffd700; /* مرز طلایی */
+}
+
+.action-box {
+    margin: 10px auto;
+    padding: 10px;
+    background-color: #333333;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(255, 255, 255, 0.2);
+}
+
+button {
+    background-color: #ffd700;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ff9900; /* تغییر رنگ هنگام حرکت ماوس */
+}
+
+details {
+    background-color: #333333;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(255, 255, 255, 0.2);
+}
+
+.image-container img {
+    max-width: 100px;
+    margin: 5px;
+    border: 2px solid #ffd700;
+    border-radius: 10px;
+}
